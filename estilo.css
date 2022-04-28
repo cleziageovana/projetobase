@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    height: 100%;
+    min-width: 80px;
+    max-width: 80px;
+    background-color: palevioletred;
+    position: fixed;
+    transition: 1s;
+}
+
+nav:hover{
+    min-width: 300px;
+    transition: 1s;
+}
+
+.icone{
+    width: 40px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top:20px;
+}
+
+li{
+    height: 60px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+li p{
+    color:#FFF;
+    font-size: 18px;
+    margin-left:30px!important;
+}
+
+li:hover{
+    background-color: dimgray;
+    cursor: pointer;
+}
+
+li p{
+    margin: 0;
+}
