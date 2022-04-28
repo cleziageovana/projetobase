@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(./Imagens/image_0535633_20210614_ob_d80d66_wallpaper-4358343-1280.jpg);
 }
 
 nav{
@@ -11,6 +12,8 @@ nav{
     background-color: palevioletred;
     position: fixed;
     transition: 1s;
+    overflow: hidden;
+    top: 0;
 }
 
 nav:hover{
@@ -49,4 +52,25 @@ li:hover{
 
 li p{
     margin: 0;
+}
+
+.areaFormulario{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    color:#FFF;
+}
+
+.caixaFormulario{
+    width: 100%;
+    height: auto;
+    background-color: #333;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
 }
